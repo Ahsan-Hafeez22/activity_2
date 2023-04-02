@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_color_3"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/centimeter_to_feet"
+        android:gravity="center"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/enter_length_in_centimeter"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:ems="12"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background= "@drawable/btn_2_drawable"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="@string/submit"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>

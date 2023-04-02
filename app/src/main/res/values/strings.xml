@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MyApplication2</string>
+    <string name="decimal_to_binary">Decimal to Binary</string>
+    <string name="enter_number_in_binary">Enter Number in Binary</string>
+    <string name="submit">Submit</string>
+    <string name="mr_cashier">Mr. Cashier</string>
+    <string name="enter_length_in_centimeter">Enter length in centimeter</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="centimeter_to_feet">Centimeter to Feet</string>
+    <string name="enter_second_number">Enter Second Number</string>
+    <string name="enter_first_number">Enter First Number</string>
+    <string name="plus">Plus</string>
+    <string name="scientific_calculator">Scientific Calculator</string>
+    <string name="minus">Minus</string>
+    <string name="multiply">Multiply</string>
+    <string name="divide">Divide</string>
+    <string name="sin">Sin</string>
+    <string name="cos">Cos</string>
+    <string name="tan">Tan</string>
+    <string name="power">Power</string>
+    <string name="log">Log</string>
+    <string name="log10">Log10</string>
+    <string name="ceiling">ceiling</string>
+    <string name="floor">floor</string>
+    <string name="sqr_root">Sqr-root</string>
+    <string name="round">round</string>
+    <string name="expo">expo</string>
+    <string name="first_number">First Number</string>
+    <string name="second_number">Second Number</string>
+</resources>
